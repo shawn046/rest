@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Olive Spoon | Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">The Olive Spoon</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Back Button -->
+  <button class="back-btn" onclick="goBack()">⬅ Back</button>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://picsum.photos/1600/900?food,menu" alt="Gallery Banner">
+    <div class="hero-text">
+      <h2>Our Gallery</h2>
+      <p>Moments & Memories</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Food & Atmosphere</h2>
+    <div class="grid">
+      <a href="img/manti.webp" class="lightbox-link"><img src="img/manti.webp" alt="Dish"></a>
+      <a href="img/cocktail.jpeg" class="lightbox-link"><img src="img/cocktail.jpeg" alt="Cocktail"></a>
+      <a href="img/rest.webp" class="lightbox-link"><img src="img/rest.webp" alt="Restaurant"></a>
+      <a href="img/event.png" class="lightbox-link"><img src="img/event.png" alt="Event"></a>
+      <a href="img/chef.jpg" class="lightbox-link"><img src="img/chef.jpg" alt="Chef"></a>
+      <a href="img/des.jpeg" class="lightbox-link"><img src="img/des.jpeg" alt="Dessert"></a>
+    </div>
+  </section>
+
+  <!-- Lightbox Overlay (added via JS) -->
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 The Olive Spoon. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>

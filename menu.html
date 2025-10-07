@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Olive Spoon | Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav>
+      <h1 class="logo">The Olive Spoon</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Back Button -->
+  <button class="back-btn" onclick="goBack()">⬅ Back</button>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="https://picsum.photos/1600/900?food,menu" alt="Menu Banner">
+    <div class="hero-text">
+      <h2>Our Menu</h2>
+      <p>From Starters to Desserts</p>
+    </div>
+  </section>
+
+  <!-- Starters -->
+  <section>
+    <h2>Starters</h2>
+    <div class="grid">
+      <div class="card">
+        <a href="img/sal.jpg" class="lightbox-link"><img src="img/sal.jpg" alt="Salad"></a>
+        <h4>Fresh Garden Salad</h4>
+        <p>Rs.199</p>
+      </div>
+      <div class="card">
+        <a href="img/soup.jpg" class="lightbox-link"><img src="img/soup.jpg" alt="Soup"></a>
+        <h4>Tomato Basil Soup</h4>
+        <p>Rs.599</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Course -->
+  <section>
+    <h2>Main Course</h2>
+    <div class="grid">
+      <div class="card">
+        <a href="img/pasta.jpeg" class="lightbox-link"><img src="img/pasta.jpeg" alt="Pasta"></a>
+        <h4>Signature Pasta</h4>
+        <p>Rs.299</p>
+      </div>
+      <div class="card">
+        <a href="img/pizza.jpeg" class="lightbox-link"><img src="img/pizza.jpeg" alt="Pizza"></a>
+        <h4>Wood-Fired Pizza</h4>
+        <p>Rs.399</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Desserts -->
+  <section>
+    <h2>Desserts</h2>
+    <div class="grid">
+      <div class="card">
+        <a href="img/cake.webp" class="lightbox-link"><img src="img/cake.webp" alt="Cake"></a>
+        <h4>Chocolate Lava Cake</h4>
+        <p>Rs.429</p>
+      </div>
+      <div class="card">
+        <a href="img/gel.jpg" class="lightbox-link"><img src="img/gel.jpg" alt="Ice Cream"></a>
+        <h4>Homemade Gelato</h4>
+        <p>Rs.269</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 The Olive Spoon. All rights reserved.</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
